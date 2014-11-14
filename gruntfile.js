@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 
         watch: {
             styles: {
-                files: ['css/bootstrap.less', 'css/layout.less', 'css/typography.less', 'css/ui.less', 'css/utility.less', 'css/variables.less', 'css/demo.css', 'css/icons.css', 'css/normalize.css', 'css/style3.css'], // which files to watch
+                files: ['css/bootstrap.less', 'css/layout.less', 'css/typography.less', 'css/ui.less', 'css/utility.less', 'css/variables.less', 'css/demo.less', 'css/icons.less', 'css/normalize.less', 'css/style3.less'], // which files to watch
                 tasks: ['less'],
                 options: {
                     nospawn: true,
