@@ -21,6 +21,7 @@
                 <a href="<?php the_field('footer_link1_text_url'); ?>"><?php the_field('footer_link1_text'); ?></a><br/>
                 <a href="<?php the_field('footer_link2_text_url'); ?>"><?php the_field('footer_link2_text'); ?></a>
             </div>
+            <div class="hoja">CODEPEN</div>
         </header>
 
 <?php get_footer(); ?>
