@@ -6,6 +6,9 @@
 
 ?>
     <body>
+
+    <script type="text/javascript"></script>
+
     <div class="container">
         <header class="codrops-header">
             <h1><?php the_field('main_title'); ?> <span><?php the_field('headline'); ?></h1>
@@ -21,7 +24,6 @@
                 <a href="<?php the_field('footer_link1_text_url'); ?>"><?php the_field('footer_link1_text'); ?></a><br/>
                 <a href="<?php the_field('footer_link2_text_url'); ?>"><?php the_field('footer_link2_text'); ?></a>
             </div>
-            <div class="hoja">CODEPEN</div>
         </header>
 
 <?php get_footer(); ?>
