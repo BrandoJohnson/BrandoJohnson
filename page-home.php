@@ -12,7 +12,7 @@
     <div class="container">
         <header class="codrops-header">
             <h1><?php the_field('main_title'); ?> <span><?php the_field('headline'); ?></h1>
-            <p class="codrops-links"><a class="codrops-icon codrops-icon-prev" href="<?php the_field('left_text_link_url'); ?>"><span><?php the_field('left_text_link'); ?></span></a>
+            <p class="codrops-links"><a class="codrops-icon codrops-icon-drop" href="<?php the_field('left_text_link_url'); ?>"><span><?php the_field('left_text_link'); ?></span></a>
                 <span class="right"><a class="codrops-icon codrops-icon-drop" href="<?php the_field('right_text_link_url'); ?>"><span><?php the_field('right_text_link'); ?></span></a></span></p>
             <nav class="codrops-demos">
                 <a href="<?php the_field('button1_link'); ?>"><?php the_field('button1'); ?></a>
