@@ -1,4 +1,5 @@
 module.exports = function(grunt) {
+
     grunt.initConfig({
 
         watch: {
@@ -24,11 +25,24 @@ module.exports = function(grunt) {
                     "style.css": "css/styles.less"
                 }
             }
+        },
+
+        sass: {                              // Task
+            dist: {                            // Target
+                options: {                       // Target options
+                    style: 'expanded'
+                },
+                files: {                         // Dictionary of files
+                    'style_sassy.css': 'css/main.scss'
+                }
+            }
         }
+
     });
 
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-sass');
 
     grunt.registerTask('default', ['watch']);
 };

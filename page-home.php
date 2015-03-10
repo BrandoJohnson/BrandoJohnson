@@ -5,6 +5,9 @@
     get_header();
 
 ?>
+
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/style_sassy.css" media="screen" />
+
     <body>
 
     <script type="text/javascript"></script>
@@ -12,8 +15,7 @@
     <div class="container">
         <header class="codrops-header">
             <h1><?php the_field('main_title'); ?> <span><?php the_field('headline'); ?></h1>
-            <p class="codrops-links"><a class="codrops-icon codrops-icon-drop" href="<?php the_field('left_text_link_url'); ?>"><span><?php the_field('left_text_link'); ?></span></a>
-                <span class="right"><a class="codrops-icon codrops-icon-drop" href="<?php the_field('right_text_link_url'); ?>"><span><?php the_field('right_text_link'); ?></span></a></span></p>
+            <p>Web Developer from Minneapolis MN. I own Public Service Websites and also do a fair amount of free lance development work. Feel free to get in touch!</p>
             <nav class="codrops-demos">
                 <a href="<?php the_field('button1_link'); ?>"><?php the_field('button1'); ?></a>
                 <a href="<?php the_field('button2_link'); ?>"><?php the_field('button2'); ?></a>
