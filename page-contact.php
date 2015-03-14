@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: My Custom Page
+Template Name: Contact
 */
 
 get_header(); ?>
