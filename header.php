@@ -18,7 +18,13 @@
 <nav id="bt-menu" class="bt-menu">
     <a href="#" class="bt-menu-trigger"><span>Menu</span></a>
 
-xxxxxx
+
+    <?php
+        wp_nav_menu( array(
+            'theme_location' => 'header-menu',
+            'menu_class'      => 'btn-icon'
+        ));
+    ?>
 
 </nav>
 </div><!-- /container -->
