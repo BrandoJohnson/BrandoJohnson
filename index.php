@@ -1,23 +1,15 @@
 <?php
-/*
-Template Name: js custom
-*/
-?>
+/**
+*
+ */
 
-<div id="scroll-animate">
-    <div id="scroll-animate-main">
-        <div class="wrapper-parallax">
-            <header>
-                <h1>Header</h1>
-            </header>
+get_header(); ?>
 
-            <section class="content">
-                <h1>Content</h1>
-            </section>
+<div id="content" class="site-content" role="main">
+    <?php /* Start the Loop */ ?>
+    <?php while ( have_posts() ) : the_post(); ?>
+        <?php the_content(); ?>
+    <?php endwhile; ?>
+</div><!-- #content .site-content -->
 
-            <footer>
-                <h1>Footer</h1>
-            </footer>
-        </div>
-    </div>
-</div>
+<?php get_footer(); ?>
