@@ -19,12 +19,6 @@
     <a href="#" class="bt-menu-trigger"><span>Menu</span></a>
 
 
-    <?php
-        wp_nav_menu( array(
-            'theme_location' => 'header-menu',
-            'menu_class'      => 'btn-icon'
-        ));
-    ?>
 
 </nav>
 </div><!-- /container -->
