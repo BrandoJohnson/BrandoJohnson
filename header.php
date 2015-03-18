@@ -2,7 +2,7 @@
 <html <?php language_attributes(); ?> class="no-js">
 <head>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
+    <link rel="shortcut icon" href="<?php bloginfo('stylesheet_url'); ?>/favicon.ico" />
 
     <meta charset="<?php bloginfo('charset'); ?>" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
