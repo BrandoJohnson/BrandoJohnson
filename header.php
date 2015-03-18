@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 <head>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
+
     <meta charset="<?php bloginfo('charset'); ?>" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,4 +46,5 @@
 
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/classie.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/borderMenu.js"></script>
+
 </html>
