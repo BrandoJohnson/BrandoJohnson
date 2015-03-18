@@ -13,7 +13,6 @@
     <meta name="author" content="Brandon Johnson" />
 
     <!-- Stylesheets -->
-    <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/modernizr.custom.js"></script>
 </head>
