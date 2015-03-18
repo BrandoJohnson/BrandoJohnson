@@ -2,7 +2,8 @@
 <html <?php language_attributes(); ?> class="no-js">
 <head>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico" />
+    <link rel="icon" href="<?php bloginfo('siteurl'); ?>/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="<?php bloginfo('siteurl'); ?>/favicon.ico" type="image/x-icon" />
 
     <meta charset="<?php bloginfo('charset'); ?>" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
